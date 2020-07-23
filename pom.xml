@@ -5,6 +5,9 @@
 	<groupId>br.com.alura.jpa</groupId>
 	<artifactId>projeto-jpa</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<properties>
+		<java.version>14</java.version>
+	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>org.hibernate</groupId>
