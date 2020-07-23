@@ -30,7 +30,7 @@ public class TestaRelacionamentoMovimentacaoCategoria {
 		mov.setDescricao("Viagem à RJ");
 		mov.setTipoMovimentacao(TipoMovimentacao.SAIDA);
 		mov.setData(LocalDateTime.now());
-		mov.setValor(new BigDecimal(300.0));
+		mov.setValor(new BigDecimal(800.0));
 		mov.setCategoria(Arrays.asList(categoria, categoria2));
 		mov.setConta(conta);
 
@@ -38,7 +38,7 @@ public class TestaRelacionamentoMovimentacaoCategoria {
 		mov2.setDescricao("Viagem à SP");
 		mov2.setTipoMovimentacao(TipoMovimentacao.SAIDA);
 		mov2.setData(LocalDateTime.now());
-		mov2.setValor(new BigDecimal(150.43));
+		mov2.setValor(new BigDecimal(1000.00));
 		mov2.setCategoria(Arrays.asList(categoria, categoria2));
 		mov2.setConta(conta);
 
